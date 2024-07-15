@@ -1,7 +1,11 @@
 <template>
-  <UContainer>
-    <slot />
-  </UContainer>
+  <div>
+    <UContainer>
+      <Header />
+      <slot />
+    </UContainer>
+    <Footer />
+  </div>
 </template>
 
 <script setup></script>

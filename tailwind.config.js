@@ -7,8 +7,22 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          "Roboto",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+      },
+    },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [],
 };
