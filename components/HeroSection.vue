@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white dark:bg-gray-900">
     <div
-      class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 md:py-16 md:grid-cols-12">
+      class="grid max-w-screen-xl py-14 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto place-self-center md:col-span-7">
         <h1
           class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -38,7 +38,7 @@
         </NuxtLink>
       </div>
       <div
-        class="hidden md:mt-0 md:col-span-5 md:flex rounded-lg overflow-hidden">
+        class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg overflow-hidden">
         <NuxtImg src="/hero-shoe2.jpg" quality="25" alt="mockup" />
       </div>
     </div>
